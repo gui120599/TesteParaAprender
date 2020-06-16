@@ -7,6 +7,7 @@ package pegando.ip.da.máquina;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -21,7 +22,7 @@ public class PegandoIpDaMáquina {
     public static void main(String[] args) throws UnknownHostException {
         //pegamos o ip da maquina.
         String ipDaMaquina = InetAddress.getLocalHost().getHostAddress();
-        System.out.println(ipDaMaquina);
+        JOptionPane.showMessageDialog(null,ipDaMaquina);
         //nome da maquina.
         String nomeDaMaquina = InetAddress.getLocalHost().getHostName();
         System.out.println(nomeDaMaquina);
