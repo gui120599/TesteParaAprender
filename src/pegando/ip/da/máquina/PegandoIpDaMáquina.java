@@ -25,7 +25,7 @@ public class PegandoIpDaMáquina {
         JOptionPane.showMessageDialog(null,ipDaMaquina);
         //nome da maquina.
         String nomeDaMaquina = InetAddress.getLocalHost().getHostName();
-        System.out.println(nomeDaMaquina);
+        JOptionPane.showMessageDialog(null,nomeDaMaquina);
     }
     
 }
