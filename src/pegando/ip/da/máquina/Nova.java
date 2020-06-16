@@ -17,7 +17,7 @@ public class Nova {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, "Olá Mundo");
+        System.out.println( "Olá Mundo");
     }
     
 }
